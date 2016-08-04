@@ -4,6 +4,7 @@ operationChar = ['.', "DEL", "*", "-", "+", "="];
 $(document).ready(function() {
   opScreen = $("#display p");
   resScreen = $("#results p");
+  
   $("#numbers .button").click(function() {
     keyVal = $(this).children("p").text(); // Gets the key value
     currentValue = opScreen.text();
@@ -29,7 +30,7 @@ $(document).ready(function() {
 
     if (keyVal === "=") {
       resScreen.text(eval(currentValue));
-    } else if (keyVal === "DEL"){
+    } else if (keyVal === "DEL") {
       resScreen.text("");
       opScreen.text("0");
     } else {
