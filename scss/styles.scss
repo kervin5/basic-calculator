@@ -1,0 +1,38 @@
+.calculator {
+  .container {
+    margin: 30px auto;
+    width: 400px;
+    .card-panel {
+      margin: 0;
+      padding: 0;
+    }
+  }
+}
+#screens {
+  p {
+    margin: 2px;
+  }
+  #display {
+    font-size: 4em;
+  }
+  #results {
+    font-size: 2.5em;
+  }
+}
+#buttons {
+  font-size: 1.2em;
+  color: white;
+  #numbers {
+    padding: 0;
+    .col {
+      height: 94.5px;
+      line-height: 55px;
+      .button {
+        width: 100%;
+      }
+    }
+  }
+  #operators {
+    padding: 0;
+  }
+}
