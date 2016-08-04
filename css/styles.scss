@@ -1,0 +1,33 @@
+$button-color : #4dc1da;
+
+body {
+	background-color: darkgray;
+}
+
+.calculator {
+  width: 320px;
+  margin: 10px auto 0;
+  background-color: white;
+  text-align: center;
+	.col-xs-3{
+		padding: 0;
+	}
+}
+
+.screen {
+	height: 50px;
+	background-color: aliceblue;
+	margin: 2% -3% 1%;
+	border: 2px solid #BDCADB;
+}
+
+.button {
+  background-color: $button-color;
+	padding: 25px;
+	margin: 3%;
+	border-radius: 5%;
+  p{
+    display: inline;
+    margin: 0;
+  }
+}

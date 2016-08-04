@@ -1,0 +1,25 @@
+body {
+  background-color: darkgray; }
+
+.calculator {
+  width: 320px;
+  margin: 10px auto 0;
+  background-color: white;
+  text-align: center; }
+  .calculator .col-xs-3 {
+    padding: 0; }
+
+.screen {
+  height: 50px;
+  background-color: aliceblue;
+  margin: 2% -3% 1%;
+  border: 2px solid #BDCADB; }
+
+.button {
+  background-color: #4dc1da;
+  padding: 25px;
+  margin: 3%;
+  border-radius: 5%; }
+  .button p {
+    display: inline;
+    margin: 0; }
