@@ -34,7 +34,7 @@ $(document).ready(function () {
             resScreen.text("0");
             opScreen.text("0");
         } else {
-            if (currentValue.length <= 9) {
+            if (currentValue.length <= 10) {
                 var lastDigit = currentValue.substring(currentValue.length - 1);
                 if (!operationChar.includes(lastDigit)) {
                     opScreen.text(currentValue + keyVal);
