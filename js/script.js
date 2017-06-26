@@ -31,7 +31,7 @@ $(document).ready(function() {
     if (keyVal === "=") {
       resScreen.text(eval(currentValue));
     } else if (keyVal === "DEL") {
-      resScreen.text("");
+      resScreen.text("0");
       opScreen.text("0");
     } else {
       if (currentValue.length <= 9) {
